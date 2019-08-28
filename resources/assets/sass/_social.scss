@@ -1,0 +1,141 @@
+.icon {
+	position:relative;
+	//text-align:center;
+	width:0px;
+	height:0px;
+	padding:20px;
+	border-top-right-radius: 	50%;
+	border-top-left-radius: 	50%;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 	50%;
+	-moz-border-radius: 		50% 50% 50% 50%;
+	-webkit-border-radius: 		50% 50% 50% 50%;
+	-khtml-border-radius: 		50% 50% 50% 50%;
+	color:#FFFFFF;
+}
+.icon i {
+	font-size:24px;
+	position:absolute;
+	left:9px;
+	top:10px;
+}
+.icon.social {
+	float:left;
+	margin:0 -1px 0 0;
+	cursor:pointer;
+	background: #333 ;
+	color:#FFF;
+  	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.icon.social:hover {
+	background: #f39b00;
+	color:#FFF;
+  	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.icon.social.fb i {
+	left:12px;
+	top:9px;
+}
+.icon.social.tw i {
+	left:10px;
+	top: 9px;
+}
+.icon.social.gl i {
+	left: 11px;
+    top: 8px;
+}
+.icon.social.in i {
+	left:11px;
+}
+.icon.social.li i {
+	left: 10px;
+    top: 8px;
+}
+.icon.social.pi i {
+	left:12px;
+}
+.socials{
+	//text-align: center;
+}
+.socials span{
+	color: #333;
+	font-size: 14px;
+	line-height: 46px;
+}
+.socials ul{
+	padding: 0;
+	margin: 0;
+	//text-align: center;
+}
+.socials ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: 0 0;
+	padding-right: 10px;
+}
+@media screen and (min-width: 1200px){
+	.socials{
+		padding-top: 5px;
+		padding-left: 40px;
+	}
+}
+
+// SOCIAL 2
+.socials2 .share {
+	padding-bottom: 8px;
+}
+.socials2 .icon i {
+	font-size:16px;
+}
+.socials2 .icon{
+	margin:0 -1px 0 0;
+	padding: 0 5px;
+	text-align:center;
+	color:#464646;
+	border-radius: 0;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.socials2 .icon:hover {
+	color:#f39b00;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-o-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+.socials2{
+	//text-align: center;
+	.icon i{
+		position: static;
+		top: 0;
+		left:0;
+	}
+}
+.socials2 span{
+	color: #333;
+	font-size: 10px;
+}
+.socials2 ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	//text-align: center;
+}
+.socials2 ul li {
+	display: inline-block;
+	background: 0 0;
+}
+

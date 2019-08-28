@@ -1,0 +1,1 @@
+{!! Form::checkbox('archived', $lectures->id,  $lectures->archived) !!}

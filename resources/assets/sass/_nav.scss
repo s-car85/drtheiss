@@ -1,0 +1,255 @@
+/*-- nav --*/
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.caret{
+	color: #cecece;
+	margin-left: 5px;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-right {
+    margin-right: 0;
+}
+.navbar-nav{
+	float: right;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: #FFF;
+    color:#f39b00;
+    background: url(/images/menu-icon.png?598f369…) no-repeat 0 23px;
+}
+//.navbar-default .navbar-nav > .active > a:before{
+//	background: #fff;
+//	transform: translateX(0);
+//	-webkit-transform: translateX(0);
+//	-moz-transform: translateX(0);
+//	-o-transform: translateX(0);
+//	-ms-transform: translateX(0);
+//}
+.navbar-nav > li > a {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 20px;
+    //margin: 0 13px;
+    padding: 25px 30px 25px 30px;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color:#f39b00;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color:#f39b00;
+	outline:none;
+}
+//nav.navbar.navbar-default {
+//    background: none;
+//    padding: 0;
+//}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color:#3e3e3e;
+    background: none;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #3e3e3e;
+}
+.navbar-default .navbar-nav  > .active.open > a:focus {
+	background:transparent;
+	color: #f39b00;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+//DROPDOWN MENU
+
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0.2;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.34+0,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.34) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.34) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.34) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+.dropdown-menu {
+    position: absolute;
+    top: 90%;
+    left: 20px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 220px;
+    padding: 0;
+    margin: 2px 0 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: left;
+    background-color: #f9f7f6;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    background-clip: padding-box;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a{
+	padding: 20px;
+	background-color: #e7e4e2;
+	color: #333;
+	border-top:1px solid #b3b0ae;
+	border-bottom:1px solid #c7c0ba;
+}
+.dropdown-menu > li {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.15+16,0.1+30,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0.02) 0%, rgba(0,0,0,0.01) 15%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0.02) 0%,rgba(0,0,0,0.01) 15%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0.02) 0%,rgba(0,0,0,0.01) 15%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 14px;
+    color: #333333;
+    white-space: nowrap;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e4e0dc;
+}
+.dropdown-menu > li:last-child a{
+	border-bottom: none;
+}
+.dropdown-menu > li:first-child a{
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: #e7e4e2;
+}
+.dropdown-menu > li:last-child > a:hover, .dropdown-menu > li > a:focus {
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar-nav > li > .dropdown-menu {
+	border-radius: 5px;
+}
+
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.active.open>a:focus,
+.navbar-default .navbar-nav>.active.open>a:active,
+{
+	color: #f39b00;
+    background: url(/images/menu-icon.png?598f369…) 0 23px no-repeat;
+	.caret{
+		color: #3e3e3e;
+	}
+}
+//.effect-3 {
+//	overflow: hidden;
+//}
+//.effect-3:before {
+//	left: -1px;
+//	bottom: 0;
+//	width: 100%;
+//	height: 2px;
+//	background:#fff;
+//	content: '';
+//    position: absolute;
+//    transition: transform .5s ease;
+//	transform: translateX(-100%);
+//	-webkit-transform: translateX(-100%);
+//	-moz-transform: translateX(-100%);
+//	-o-transform: translateX(-100%);
+//	-ms-transform: translateX(-100%);
+//}
+//.effect-3:hover:before {
+//	transform: translateX(0);
+//	-webkit-transform: translateX(0);
+//	-moz-transform: translateX(0);
+//	-o-transform: translateX(0);
+//	-ms-transform: translateX(0);
+//}
+/*-- //nav --*/
+
+@media (max-width: 991px){
+	.navbar-nav{
+		padding-right: 0;
+	}
+	.navbar-header{
+		text-align: center;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #FFF;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #3e3e3e;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: transparent;
+	}
+	.navbar-toggle {
+	 	float:none;
+		margin: .5em 0 .5em;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none;
+	}
+	.navbar-collapse {
+		box-shadow: none;
+	}
+	.navbar-nav {
+		margin: 0;
+		text-align: center;
+		padding: 1em 0;
+		float: none;
+	}
+	.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+		color: #f39b00;
+	}
+	.navbar-default .navbar-nav > .active > a:before,.effect-3:before {
+		background: #fff;
+	}
+	.navbar-nav > li > a {
+		margin: 0;
+		display: inline-block;
+	 	padding: 25px 28px 25px 28px;
+	}
+	//.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	//	border: none;
+	//	position: absolute;
+	//	width: 100%;
+	//	background: #fff;
+	//	z-index: 999;
+	//}
+	.navbar-right {
+		margin: 0;
+	}
+	.navbar-nav .open .dropdown-menu {
+		background-color: #fff;
+    	text-align: center;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		border-radius: 0;
+		padding: 20px;
+		background-color: #f8f6f5;
+		color: #333;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+		border-radius: 0;
+		padding: 20px;
+		background-color: #e7e4e2;
+		color: #333;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus{
+		background-color: #e7e4e2;
+	}
+}

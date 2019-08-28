@@ -1,0 +1,67 @@
+//Helpers
+.hide {
+  display: none !important;
+}
+.no-border {
+  border: 0 !important;
+}
+.no-padding {
+  padding: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+.margin-center{
+	margin: 0 auto;
+}
+
+//Defaults
+//::-moz-selection { /* Code for Firefox */
+//    color: #fff;
+//    background: $red;
+//}
+//
+//::selection {
+//     color: #fff;
+//    background: $red;
+//}
+html, body{
+    font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+p,ul li,ol li{
+	margin:0;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'SF Pro Display', sans-serif;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+a:focus{
+	outline:none;
+}
+
+.row{
+	margin: 0;
+}
+.container{
+	//border-left: 1px solid red;
+	//border-right: 1px solid red;
+}
+.row-no-padding {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
